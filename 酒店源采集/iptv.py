@@ -1481,7 +1481,7 @@ def txt_to_m3u(input_file, output_file):
                     f.write(f'#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/{channel_name}.png" group-title="{genre}",{channel_name}\n')
                     f.write(f'{channel_url}\n')
 # 将txt文件转换为m3u文件
-txt_to_m3u('综合源.txt', '综合源.m3u')
+txt_to_m3u('综合源.txt', 'zhy.m3u')
 #任务结束，删除不必要的过程文件#
 files_to_remove = ['湖南电信.txt', '广东电信.txt', '四川电信.txt', '河北电信.txt', '河南电信.txt', '天津联通.txt', '组播源.txt', "TW.txt", "a.txt", "a0.txt", "b.txt", "b1.txt", "港澳.txt", "df0.txt", "df.txt", "df1.txt", "sr1.txt", "sr2.txt", \
                    "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt", "酒店源#.txt"]
